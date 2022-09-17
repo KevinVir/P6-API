@@ -20,4 +20,4 @@ const storage = multer.diskStorage({
 });
 
 // Exporation de multer avec l'objet
-module.exports = multer({storage: storage}).single('image');
+module.exports = multer({ storage: storage }).single('image');

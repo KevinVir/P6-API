@@ -4,7 +4,7 @@ const passwordValidator = require('password-validator');
 // Déclaration
 const passwordSchema = new passwordValidator();
 
-// Critères à respecter, à accorder avec front-end
+// Critères à respecter
 passwordSchema
     .is().min(8)                                    // Minimum longueur 8
     .is().max(32)                                   // Maximum longueur 100
